@@ -4,7 +4,7 @@ import img2 from '../assets/laptop.jpg'
 
 const Products = () => {
   return (
-    <div className='w-full h-[600px] bg-white flex gap-1 mt-10'>
+    <div className='w-[1400px] h-[600px] bg-white flex gap-1 mt-10 mx-auto'>
         <div className='m-10 flex flex-col'>
             <img src={img1} alt="desk" />
             <h1 className='flex items-center justify-center mt-6 text-2xl font-bold'>Desk Pads</h1>
